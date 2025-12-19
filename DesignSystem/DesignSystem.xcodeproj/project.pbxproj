@@ -3,12 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A68451EE2D7B77D0EFB6FFBA /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF05EB6E0715A572960E94C /* Color.xcassets */; };
 		C0DE839B0D76FF917A5D3D35 /* DSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4D7E985601A58A9D11DB8A /* DSColor.swift */; };
+		C3C910852EF54270004E2CD7 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C9107E2EF54270004E2CD7 /* ButtonModifier.swift */; };
+		C3C910862EF54270004E2CD7 /* ButtonColorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C910832EF54270004E2CD7 /* ButtonColorType.swift */; };
+		C3C910872EF54270004E2CD7 /* BaseButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C910822EF54270004E2CD7 /* BaseButtonStyle.swift */; };
+		C3C910882EF54270004E2CD7 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C910802EF54270004E2CD7 /* BaseButton.swift */; };
+		C3C9108B2EF54295004E2CD7 /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C910892EF54295004E2CD7 /* BadgeView.swift */; };
 		F6018B5F7748E322214C52D6 /* TuistBundle+DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4AD9735556ECA8C8008FEC /* TuistBundle+DesignSystem.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +57,11 @@
 		69B7BBEAD5472C7195924AC8 /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8937FA9427EEA938B58C5B3E /* DesignSystem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem-Info.plist"; sourceTree = "<group>"; };
 		BE4AD9735556ECA8C8008FEC /* TuistBundle+DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+DesignSystem.swift"; sourceTree = "<group>"; };
+		C3C9107E2EF54270004E2CD7 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
+		C3C910802EF54270004E2CD7 /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		C3C910822EF54270004E2CD7 /* BaseButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButtonStyle.swift; sourceTree = "<group>"; };
+		C3C910832EF54270004E2CD7 /* ButtonColorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonColorType.swift; sourceTree = "<group>"; };
+		C3C910892EF54295004E2CD7 /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
 		DDA12AD00E98A3497D3A729E /* DesignSystem_DesignSystem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem_DesignSystem-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,10 +129,55 @@
 		AAB087E98A6EDF43BBBC6AB1 /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
+				C3C9108A2EF54295004E2CD7 /* Badge */,
+				C3C9107D2EF5424F004E2CD7 /* Button */,
 				238886BC40C4ED52289D8C35 /* Color */,
 				E188A934756F825D89DAFCCC /* Resources */,
 			);
 			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		C3C9107D2EF5424F004E2CD7 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				C3C9107F2EF54270004E2CD7 /* Modifier */,
+				C3C910812EF54270004E2CD7 /* Solid */,
+				C3C910842EF54270004E2CD7 /* Style */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		C3C9107F2EF54270004E2CD7 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				C3C9107E2EF54270004E2CD7 /* ButtonModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		C3C910812EF54270004E2CD7 /* Solid */ = {
+			isa = PBXGroup;
+			children = (
+				C3C910802EF54270004E2CD7 /* BaseButton.swift */,
+			);
+			path = Solid;
+			sourceTree = "<group>";
+		};
+		C3C910842EF54270004E2CD7 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				C3C910822EF54270004E2CD7 /* BaseButtonStyle.swift */,
+				C3C910832EF54270004E2CD7 /* ButtonColorType.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		C3C9108A2EF54295004E2CD7 /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				C3C910892EF54295004E2CD7 /* BadgeView.swift */,
+			);
+			path = Badge;
 			sourceTree = "<group>";
 		};
 		D5FD3537E28AE857DC09D214 /* Sources */ = {
@@ -210,8 +265,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 9999;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 5C0CBBA2BFE0CEE21375AF0A /* Build configuration list for PBXProject "DesignSystem" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -262,6 +315,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3C910852EF54270004E2CD7 /* ButtonModifier.swift in Sources */,
+				C3C9108B2EF54295004E2CD7 /* BadgeView.swift in Sources */,
+				C3C910862EF54270004E2CD7 /* ButtonColorType.swift in Sources */,
+				C3C910872EF54270004E2CD7 /* BaseButtonStyle.swift in Sources */,
+				C3C910882EF54270004E2CD7 /* BaseButton.swift in Sources */,
 				F6018B5F7748E322214C52D6 /* TuistBundle+DesignSystem.swift in Sources */,
 				C0DE839B0D76FF917A5D3D35 /* DSColor.swift in Sources */,
 			);
@@ -296,10 +354,7 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -336,10 +391,7 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -447,16 +499,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-package-name",
-					DesignSystem,
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -package-name DesignSystem";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					SWIFT_PACKAGE,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
 				SWIFT_SUPPRESS_WARNINGS = YES;
 				USE_HEADERMAP = NO;
 			};
@@ -544,16 +589,9 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-package-name",
-					DesignSystem,
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -package-name DesignSystem";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					SWIFT_PACKAGE,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
 				SWIFT_SUPPRESS_WARNINGS = YES;
 				USE_HEADERMAP = NO;
 				VALIDATE_PRODUCT = YES;
