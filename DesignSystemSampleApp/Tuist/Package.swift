@@ -15,7 +15,7 @@ import PackageDescription
 let package = Package(
     name: "DesignSystemSampleApp",
     dependencies: [
-      .package(path: "../../DesignSystem") // 경로는 네 구조에 맞게
+      .package(path: "../..") // 경로는 네 구조에 맞게
         // Add your own dependencies here:
         // .package(url: "https://github.com/Alamofire/Alamofire", from: "5.0.0"),
         // You can read more about dependencies here: https://docs.tuist.io/documentation/tuist/dependencies
