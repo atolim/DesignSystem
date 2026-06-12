@@ -3,17 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09AA2F30CBE4544AB9E2E66F /* DSTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF67F6D3896ABFA5DDC06BB0 /* DSTabs.swift */; };
+		0A7E41703BE5E0AA9832B7C0 /* DSProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C0357D584275C472B12486 /* DSProgress.swift */; };
+		0AB8549C96295B7F96AF0900 /* DSList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5C09040A74D3932E5BCBD5 /* DSList.swift */; };
+		0F69DC7CD40139C24C4599D4 /* DSAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D702D16822D996A86A710DA /* DSAlert.swift */; };
+		192206EF2CE9E7C2A06C7EDF /* DSSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBB14F08C53E94368BFDFB9 /* DSSpacing.swift */; };
+		1EE4A5789CD0C5AC474760DA /* DSTooltip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30EA7C909C100839D37FC1E /* DSTooltip.swift */; };
+		2470DA6127D13669D918E403 /* DSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E168B1055BAB00375B22E9F /* DSImage.swift */; };
+		48DF08835636CD716ACD6F91 /* DSBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154D0DA2E27CE00D2311A69 /* DSBottomSheet.swift */; };
+		4C0725A7C8E82EE885AE3742 /* DSModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F2DD31A3E56EC6E5508137 /* DSModal.swift */; };
+		4C24F9836713DF60894867D6 /* DSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C76B3CC1152AA188B28A48 /* DSButton.swift */; };
+		4FEDE9CAA63E2A03B9813BA7 /* DSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81712BFAB64D40CFDC3D5E24 /* DSTextField.swift */; };
+		71E138BEC2885D442374008A /* DSBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5460919D7A277868C21DEC /* DSBadge.swift */; };
+		86245759284B2428BBC69990 /* DSToggles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BA941DE44762A6B7A1A2EA /* DSToggles.swift */; };
 		A68451EE2D7B77D0EFB6FFBA /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF05EB6E0715A572960E94C /* Color.xcassets */; };
+		AC4B2BC9A4D8743C11505F52 /* DSDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9BEA1578A7AF24663028BE /* DSDivider.swift */; };
+		BC79021A6894AAA8EB39B97B /* DSTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6949029E48C20E09C960A562 /* DSTypography.swift */; };
+		BD1EB01CC6662CDC45CF25EB /* DSToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8609F2BC144BF97F057C6CE0 /* DSToast.swift */; };
 		C0DE839B0D76FF917A5D3D35 /* DSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4D7E985601A58A9D11DB8A /* DSColor.swift */; };
-		C3C910852EF54270004E2CD7 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C9107E2EF54270004E2CD7 /* ButtonModifier.swift */; };
-		C3C910862EF54270004E2CD7 /* ButtonColorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C910832EF54270004E2CD7 /* ButtonColorType.swift */; };
-		C3C910872EF54270004E2CD7 /* BaseButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C910822EF54270004E2CD7 /* BaseButtonStyle.swift */; };
-		C3C910882EF54270004E2CD7 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C910802EF54270004E2CD7 /* BaseButton.swift */; };
-		C3C9108B2EF54295004E2CD7 /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C910892EF54295004E2CD7 /* BadgeView.swift */; };
+		C2820F43790580250B9199A1 /* DSSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B10FE07DD69D671FC7D46 /* DSSelect.swift */; };
+		E22D18644E1C46196AEF8069 /* DSAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED4061D8BAB52003569F173 /* DSAvatar.swift */; };
 		F6018B5F7748E322214C52D6 /* TuistBundle+DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4AD9735556ECA8C8008FEC /* TuistBundle+DesignSystem.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,18 +64,31 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0EBB14F08C53E94368BFDFB9 /* DSSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSSpacing.swift; sourceTree = "<group>"; };
+		2F5C09040A74D3932E5BCBD5 /* DSList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSList.swift; sourceTree = "<group>"; };
+		36C76B3CC1152AA188B28A48 /* DSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSButton.swift; sourceTree = "<group>"; };
+		3E168B1055BAB00375B22E9F /* DSImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSImage.swift; sourceTree = "<group>"; };
+		3ED4061D8BAB52003569F173 /* DSAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSAvatar.swift; sourceTree = "<group>"; };
+		40BA941DE44762A6B7A1A2EA /* DSToggles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSToggles.swift; sourceTree = "<group>"; };
 		42D7C40704F4FCBCDB855667 /* DesignSystem_DesignSystem.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystem_DesignSystem.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF05EB6E0715A572960E94C /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		5E4D7E985601A58A9D11DB8A /* DSColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSColor.swift; sourceTree = "<group>"; };
+		6949029E48C20E09C960A562 /* DSTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTypography.swift; sourceTree = "<group>"; };
 		69B7BBEAD5472C7195924AC8 /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8B10FE07DD69D671FC7D46 /* DSSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSSelect.swift; sourceTree = "<group>"; };
+		81712BFAB64D40CFDC3D5E24 /* DSTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTextField.swift; sourceTree = "<group>"; };
+		8609F2BC144BF97F057C6CE0 /* DSToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSToast.swift; sourceTree = "<group>"; };
 		8937FA9427EEA938B58C5B3E /* DesignSystem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem-Info.plist"; sourceTree = "<group>"; };
+		8D702D16822D996A86A710DA /* DSAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSAlert.swift; sourceTree = "<group>"; };
 		BE4AD9735556ECA8C8008FEC /* TuistBundle+DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+DesignSystem.swift"; sourceTree = "<group>"; };
-		C3C9107E2EF54270004E2CD7 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
-		C3C910802EF54270004E2CD7 /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
-		C3C910822EF54270004E2CD7 /* BaseButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButtonStyle.swift; sourceTree = "<group>"; };
-		C3C910832EF54270004E2CD7 /* ButtonColorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonColorType.swift; sourceTree = "<group>"; };
-		C3C910892EF54295004E2CD7 /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
+		BF9BEA1578A7AF24663028BE /* DSDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSDivider.swift; sourceTree = "<group>"; };
+		C154D0DA2E27CE00D2311A69 /* DSBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSBottomSheet.swift; sourceTree = "<group>"; };
+		C30EA7C909C100839D37FC1E /* DSTooltip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTooltip.swift; sourceTree = "<group>"; };
+		DD5460919D7A277868C21DEC /* DSBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSBadge.swift; sourceTree = "<group>"; };
 		DDA12AD00E98A3497D3A729E /* DesignSystem_DesignSystem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem_DesignSystem-Info.plist"; sourceTree = "<group>"; };
+		E1C0357D584275C472B12486 /* DSProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSProgress.swift; sourceTree = "<group>"; };
+		E9F2DD31A3E56EC6E5508137 /* DSModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSModal.swift; sourceTree = "<group>"; };
+		EF67F6D3896ABFA5DDC06BB0 /* DSTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTabs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +109,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01D35CCCB3188A49A9D86010 /* Spacing */ = {
+			isa = PBXGroup;
+			children = (
+				0EBB14F08C53E94368BFDFB9 /* DSSpacing.swift */,
+			);
+			path = Spacing;
+			sourceTree = "<group>";
+		};
+		07D6EFB1BF1312C26ED29CCB /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				EB5C758BCA2169F386528371 /* Image */,
+				01D35CCCB3188A49A9D86010 /* Spacing */,
+				0F1BC630D9AD02DFD825332F /* Typography */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
 		0E1288659896D0CFF98DA5AA /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				AAB087E98A6EDF43BBBC6AB1 /* DesignSystem */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		0F1BC630D9AD02DFD825332F /* Typography */ = {
+			isa = PBXGroup;
+			children = (
+				6949029E48C20E09C960A562 /* DSTypography.swift */,
+			);
+			path = Typography;
+			sourceTree = "<group>";
+		};
+		22EB37CEA50094E6341F9986 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				C154D0DA2E27CE00D2311A69 /* DSBottomSheet.swift */,
+				BF9BEA1578A7AF24663028BE /* DSDivider.swift */,
+				2F5C09040A74D3932E5BCBD5 /* DSList.swift */,
+				E9F2DD31A3E56EC6E5508137 /* DSModal.swift */,
+				EF67F6D3896ABFA5DDC06BB0 /* DSTabs.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 		238886BC40C4ED52289D8C35 /* Color */ = {
@@ -106,6 +170,28 @@
 				0E1288659896D0CFF98DA5AA /* Sources */,
 			);
 			name = Project;
+			sourceTree = "<group>";
+		};
+		2C4FBBB477B830C435459AE1 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				36C76B3CC1152AA188B28A48 /* DSButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		64DCCAA969B7330ED29A0041 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2C4FBBB477B830C435459AE1 /* Button */,
+				CC87DCBD20C614B069AF68A1 /* Display */,
+				B3C476E131848C6583187641 /* Feedback */,
+				AB0915A4DA32764D81FD821C /* Input */,
+				22EB37CEA50094E6341F9986 /* Navigation */,
+				C5642BC8B34E8D683D104C49 /* Select */,
+				8B264D874AC720920BB4A26E /* Toggle */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		82664F67710540CBDEBE5B11 /* Products */ = {
@@ -126,58 +212,59 @@
 			path = Derived;
 			sourceTree = "<group>";
 		};
+		8B264D874AC720920BB4A26E /* Toggle */ = {
+			isa = PBXGroup;
+			children = (
+				40BA941DE44762A6B7A1A2EA /* DSToggles.swift */,
+			);
+			path = Toggle;
+			sourceTree = "<group>";
+		};
 		AAB087E98A6EDF43BBBC6AB1 /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
-				C3C9108A2EF54295004E2CD7 /* Badge */,
-				C3C9107D2EF5424F004E2CD7 /* Button */,
 				238886BC40C4ED52289D8C35 /* Color */,
+				64DCCAA969B7330ED29A0041 /* Components */,
+				07D6EFB1BF1312C26ED29CCB /* Foundation */,
 				E188A934756F825D89DAFCCC /* Resources */,
 			);
 			path = DesignSystem;
 			sourceTree = "<group>";
 		};
-		C3C9107D2EF5424F004E2CD7 /* Button */ = {
+		AB0915A4DA32764D81FD821C /* Input */ = {
 			isa = PBXGroup;
 			children = (
-				C3C9107F2EF54270004E2CD7 /* Modifier */,
-				C3C910812EF54270004E2CD7 /* Solid */,
-				C3C910842EF54270004E2CD7 /* Style */,
+				81712BFAB64D40CFDC3D5E24 /* DSTextField.swift */,
 			);
-			path = Button;
+			path = Input;
 			sourceTree = "<group>";
 		};
-		C3C9107F2EF54270004E2CD7 /* Modifier */ = {
+		B3C476E131848C6583187641 /* Feedback */ = {
 			isa = PBXGroup;
 			children = (
-				C3C9107E2EF54270004E2CD7 /* ButtonModifier.swift */,
+				8D702D16822D996A86A710DA /* DSAlert.swift */,
+				E1C0357D584275C472B12486 /* DSProgress.swift */,
+				8609F2BC144BF97F057C6CE0 /* DSToast.swift */,
+				C30EA7C909C100839D37FC1E /* DSTooltip.swift */,
 			);
-			path = Modifier;
+			path = Feedback;
 			sourceTree = "<group>";
 		};
-		C3C910812EF54270004E2CD7 /* Solid */ = {
+		C5642BC8B34E8D683D104C49 /* Select */ = {
 			isa = PBXGroup;
 			children = (
-				C3C910802EF54270004E2CD7 /* BaseButton.swift */,
+				6E8B10FE07DD69D671FC7D46 /* DSSelect.swift */,
 			);
-			path = Solid;
+			path = Select;
 			sourceTree = "<group>";
 		};
-		C3C910842EF54270004E2CD7 /* Style */ = {
+		CC87DCBD20C614B069AF68A1 /* Display */ = {
 			isa = PBXGroup;
 			children = (
-				C3C910822EF54270004E2CD7 /* BaseButtonStyle.swift */,
-				C3C910832EF54270004E2CD7 /* ButtonColorType.swift */,
+				3ED4061D8BAB52003569F173 /* DSAvatar.swift */,
+				DD5460919D7A277868C21DEC /* DSBadge.swift */,
 			);
-			path = Style;
-			sourceTree = "<group>";
-		};
-		C3C9108A2EF54295004E2CD7 /* Badge */ = {
-			isa = PBXGroup;
-			children = (
-				C3C910892EF54295004E2CD7 /* BadgeView.swift */,
-			);
-			path = Badge;
+			path = Display;
 			sourceTree = "<group>";
 		};
 		D5FD3537E28AE857DC09D214 /* Sources */ = {
@@ -194,6 +281,14 @@
 				4FF05EB6E0715A572960E94C /* Color.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		EB5C758BCA2169F386528371 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				3E168B1055BAB00375B22E9F /* DSImage.swift */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 		EC9821EEC8CC800276475F6C = {
@@ -265,6 +360,8 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = 5C0CBBA2BFE0CEE21375AF0A /* Build configuration list for PBXProject "DesignSystem" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -315,13 +412,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3C910852EF54270004E2CD7 /* ButtonModifier.swift in Sources */,
-				C3C9108B2EF54295004E2CD7 /* BadgeView.swift in Sources */,
-				C3C910862EF54270004E2CD7 /* ButtonColorType.swift in Sources */,
-				C3C910872EF54270004E2CD7 /* BaseButtonStyle.swift in Sources */,
-				C3C910882EF54270004E2CD7 /* BaseButton.swift in Sources */,
 				F6018B5F7748E322214C52D6 /* TuistBundle+DesignSystem.swift in Sources */,
 				C0DE839B0D76FF917A5D3D35 /* DSColor.swift in Sources */,
+				4C24F9836713DF60894867D6 /* DSButton.swift in Sources */,
+				E22D18644E1C46196AEF8069 /* DSAvatar.swift in Sources */,
+				71E138BEC2885D442374008A /* DSBadge.swift in Sources */,
+				0F69DC7CD40139C24C4599D4 /* DSAlert.swift in Sources */,
+				0A7E41703BE5E0AA9832B7C0 /* DSProgress.swift in Sources */,
+				BD1EB01CC6662CDC45CF25EB /* DSToast.swift in Sources */,
+				1EE4A5789CD0C5AC474760DA /* DSTooltip.swift in Sources */,
+				4FEDE9CAA63E2A03B9813BA7 /* DSTextField.swift in Sources */,
+				48DF08835636CD716ACD6F91 /* DSBottomSheet.swift in Sources */,
+				AC4B2BC9A4D8743C11505F52 /* DSDivider.swift in Sources */,
+				0AB8549C96295B7F96AF0900 /* DSList.swift in Sources */,
+				4C0725A7C8E82EE885AE3742 /* DSModal.swift in Sources */,
+				09AA2F30CBE4544AB9E2E66F /* DSTabs.swift in Sources */,
+				C2820F43790580250B9199A1 /* DSSelect.swift in Sources */,
+				86245759284B2428BBC69990 /* DSToggles.swift in Sources */,
+				2470DA6127D13669D918E403 /* DSImage.swift in Sources */,
+				192206EF2CE9E7C2A06C7EDF /* DSSpacing.swift in Sources */,
+				BC79021A6894AAA8EB39B97B /* DSTypography.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,7 +464,10 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -391,7 +504,10 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -499,9 +615,16 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_SWIFT_FLAGS = "$(inherited) -package-name DesignSystem";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-package-name",
+					DesignSystem,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					SWIFT_PACKAGE,
+				);
 				SWIFT_SUPPRESS_WARNINGS = YES;
 				USE_HEADERMAP = NO;
 			};
@@ -589,9 +712,16 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_SWIFT_FLAGS = "$(inherited) -package-name DesignSystem";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-package-name",
+					DesignSystem,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					SWIFT_PACKAGE,
+				);
 				SWIFT_SUPPRESS_WARNINGS = YES;
 				USE_HEADERMAP = NO;
 				VALIDATE_PRODUCT = YES;

@@ -1,5 +1,5 @@
 import Testing
-@testable import N
+@testable import DesignSystemSampleApp
 
 struct NTests {
 
