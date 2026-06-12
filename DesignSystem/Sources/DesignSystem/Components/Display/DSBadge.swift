@@ -47,6 +47,7 @@ public struct DSBadge: View {
   let icon: DSIcon?
   let variant: DSBadgeVariant
   let color: DSBadgeColor
+  let customColor: Color?
   let size: DSBadgeSize
   
   public init(
@@ -60,6 +61,22 @@ public struct DSBadge: View {
     self.icon = icon
     self.variant = variant
     self.color = color
+    self.customColor = nil
+    self.size = size
+  }
+  
+  public init(
+    _ text: String,
+    icon: DSIcon? = nil,
+    variant: DSBadgeVariant = .subtle,
+    customColor: Color,
+    size: DSBadgeSize = .medium
+  ) {
+    self.text = text
+    self.icon = icon
+    self.variant = variant
+    self.color = .primary
+    self.customColor = customColor
     self.size = size
   }
   
@@ -90,6 +107,9 @@ public struct DSBadge: View {
   }
   
   private var semanticColor: Color {
+    if let customColor = customColor {
+      return customColor
+    }
     switch color {
     case .primary: return DSColor.primary
     case .secondary: return DSColor.secondary
@@ -115,6 +135,9 @@ public struct DSBadge: View {
   private var textColor: Color {
     switch variant {
     case .solid:
+      if customColor != nil {
+        return .white
+      }
       if color == .neutral {
         return DSColor.backgroundDefault
       }
